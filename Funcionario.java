@@ -1,4 +1,17 @@
-class Funcionario extends Pessoa {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.desafio2.novoDesafio;
+
+/**
+ *
+ * @author Erivelton
+ */
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class Funcionario extends Pessoa {
     private BigDecimal salario;
     private String funcao;
 
@@ -23,4 +36,5 @@ class Funcionario extends Pessoa {
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
+    
 }
